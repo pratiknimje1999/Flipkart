@@ -12,7 +12,7 @@ public class FlipClickAction {
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
 		driver.findElement(By.cssSelector("img[alt='Grocery']")).click();
-		driver.close();
+		
 	}
 
 }
